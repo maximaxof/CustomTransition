@@ -13,11 +13,11 @@ There are a lot of ways to transition between controllers but I think this is th
 This is just a small class to understand how to transition between two UIViewControllers without segues.
 
 How to use: 
-When you are ready to switch, call {
+When you are ready to switch, call:
 
-#     CustomTransition.coverFromRight(from: self, to: newViewController)
+	CustomTransition.coverFromRight(from: self, to: newViewController)
 
-There are many animations already available:
+There are many animations already available (to replace coverFromRight):
 
 - coverFromRight()	 - - - bring a controller from the right by covering the current one
 - uncoverFromRight()	 - - - return from the coverFromRight
