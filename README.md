@@ -19,10 +19,10 @@ When you are ready to switch, call {
 
 There are many animations already available:
 
-- coverFromRight() - - - bring a controller from the right by covering the current one
-- uncoverFromRight() - - - return from the coverFromRight
-- coverFromBottom() - - - bring a controller from the bottom by covering the current one
-- switchVC() - - - entirely switch root controller
+- coverFromRight()	 - - - bring a controller from the right by covering the current one
+- uncoverFromRight()	 - - - return from the coverFromRight
+- coverFromBottom()	 - - - bring a controller from the bottom by covering the current one
+- switchVC()		 - - - entirely switch root controller
 
 
 Have a look around, once you grasp how this works you can create your own transitions.
