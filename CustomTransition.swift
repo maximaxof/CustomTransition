@@ -99,7 +99,7 @@ class CustomTransition {
         to.view.alpha = 0.3
         window?.insertSubview(to.view, at: 0)
         
-        let mainView = (from as! MenuVC).parentVC.view
+        let mainView = from.view
         
         UIView.animate(withDuration: 0.4, delay: 0, options: .curveEaseInOut, animations: { () -> Void in
             from.view.frame = from.view.frame.offsetBy(dx: -screenWidth, dy: 0)
